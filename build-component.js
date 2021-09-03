@@ -11,6 +11,6 @@ build = async () => {
   ];
 
   await fs.ensureDir("element");
-  await concat(files, "element/news-widget.js");
+  await concat(files, "element/news-widget-Three.js");
 };
 build();
